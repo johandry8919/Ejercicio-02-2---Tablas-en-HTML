@@ -5,12 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 022 - Tablas en HTML</title>
+
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
 </head>
 <body>
+
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
     
 
     <table>
-        <tr></tr>
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Año de publicación</th>
+            <th>Enlace a Amazon</th>
+          </tr>
+          
+
+
+        <tbody>
+            <tr>
+                <td>el metro de lus</td>
+                <td>Maria Anders</td>
+                <td>20/9/2022</td>
+                <td><a href="https://www.amazon.com/-/es/Margaret-Wise-Brown/dp/0694003611/?_encoding=UTF8&pd_rd_w=JVoYJ&content-id=amzn1.sym.ba25a0fb-eeb9-4762-9c76-8ca869df5234&pf_rd_p=ba25a0fb-eeb9-4762-9c76-8ca869df5234&pf_rd_r=TEFX5A2T0657H2BNYQ2P&pd_rd_wg=gF9wz&pd_rd_r=b997072e-c19e-4efa-8dd2-48b3bb85b898&ref_=pd_gw_exports_top_sellers_unrec">libro</a></td>
+              </tr>
+        </tbody>
     </table>
 </body>
 </html>
